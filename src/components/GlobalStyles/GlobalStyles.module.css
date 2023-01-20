@@ -1,0 +1,19 @@
+.body{
+    background-color: rgb(34, 35, 40);   
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    background-color: aqua;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: .1rem .1rem .3rem .05rem rgb(3, 233, 250); */
+}
+

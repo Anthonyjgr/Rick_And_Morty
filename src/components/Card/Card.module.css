@@ -1,0 +1,53 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 11rem;
+    height: 18rem;
+    border: 1px solid lightgray;
+    /* box-shadow: .2rem .2rem .3rem 0rem #d3d3d3d1; */
+    border-radius: .4rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    background-color: rgb(54, 54, 60);
+}
+
+.btn {
+    margin-top: .3rem;
+    border-radius: .4rem;
+    background-color: rgba(43, 0, 255, 0);
+    color: white;
+}
+.cardText{
+    margin-top: 1rem;
+}
+
+.value {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white;
+    margin-top: -.7rem;
+    
+}
+
+.key {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.tarjeta img {
+    width: 10rem;
+    border-radius: .3rem;
+   margin-top: 1rem;
+
+}
